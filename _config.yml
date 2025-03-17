@@ -1,0 +1,44 @@
+title: John Henry Mejía
+tagline: Personal blog about data science, machine learning and other random interests of Tomas Miskov
+author: John Henry Mejia # name of site's author
+email: jhmrow@gmail.com # email of site's author
+url: https://jhmejia.com # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if your site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  John Henry Mejia portfolio - math, learning, and life.
+
+social:
+  name: John Henry Mejia
+  links:
+    - https://www.linkedin.com/in/johnhenrymejia/
+    - https://github.com/jhmejia
+
+
+permalink: /:slug.html
+google_analytics: G-E0Z7XVR1ET
+
+favicon: "Favicon_tm_32x32.png" # name+extension of favicon (which must be put on the root folder)
+goat_counter: "jhmrow" # put your GoatCounter name if you want to use GoatCounter analytics
+
+# remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: "JHM" # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  load_paths:
+    - _sass
+    - assets/css
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+port: 4000

@@ -1,0 +1,20 @@
+email:
+  id: 'jhmrow@gmail.com'
+  href: 'mailto: jhmrow@gmail.com'
+  title: 'Email'
+  fa-icon: 'fa-solid fa-paper-plane'
+
+
+
+github:
+  id: 'jhmejia'
+  href: 'https://github.com/jhmejia'
+  title: 'GitHub'
+  fa-icon: 'fa-brands fa-github'
+
+
+linkedin:
+  id: 'John Henry Mejia'
+  href: 'https://www.linkedin.com/in/johnhenrymejia/'
+  title: 'LinkedIn'
+  fa-icon: 'fa-brands fa-linkedin-in'
